@@ -1,0 +1,39 @@
+@use "../Variables/colours" as c;
+.hamburger-button {
+  position: fixed;
+  z-index: 2;
+  bottom: 1rem;
+  right: 1rem;
+  width: 2.9rem;
+  height: 2.9rem;
+  background-color: c.$bg-color;
+  border: none;
+  border-radius: 5%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10%;
+}
+
+.first-bar,
+.second-bar,
+.third-bar {
+  width: 80%;
+  height: 10%;
+  background-color: c.$main-color-black;
+  transition: 200ms ease;
+}
+
+.first-bar-clicked {
+  transform: rotate(45deg) translate(6px, 6px);
+  transition: 200ms ease;
+}
+.second-bar-clicked {
+  opacity: 0;
+}
+
+.third-bar-clicked {
+  transform: rotate(-45deg) translate(6px, -6px);
+  transition: 200ms ease;
+}
