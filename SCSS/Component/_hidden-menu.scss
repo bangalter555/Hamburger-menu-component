@@ -2,8 +2,9 @@
 .hidden-menu {
   position: fixed; //No es position relative!!
   z-index: 1;
+  bottom: 0;
   top: 0;
-  left: -1290px;
+  left: 0;
   width: 100vw;
   height: 100vh;
   background-color: #00000880;
@@ -11,15 +12,17 @@
   flex-flow: column;
   justify-content: space-evenly;
   align-items: center;
+  transform: translate(-100%, 0);
 }
 
 .show-hidden-menu {
-  transform: translateX(1280px);
+  transform: translate(0, 0);
   transition: 200ms ease;
 }
 
 .section-link,
 .section-link:visited {
+  display: block;
   text-decoration: none;
   color: c.$bg-color;
   font-size: 1.5rem;
