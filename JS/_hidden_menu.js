@@ -1,4 +1,4 @@
-const $hiddenMenu = document.createElement("section");
+const $hiddenMenu = document.createElement("aside");
 $hiddenMenu.classList.add("hidden-menu");
 
 for (let i = 0; i < 4; i++) {
