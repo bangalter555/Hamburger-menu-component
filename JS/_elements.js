@@ -1,6 +1,6 @@
 //IMPORTS
-import { $hmButton } from "./_hamburger-menu-component.js";
-import { $hiddenMenu } from "./_hidden-menu.js";
+import { $hmButton } from "./_hamburger_menu_component.js";
+import { $hiddenMenu } from "./_hidden_menu.js";
 
 //Documento HTML
 const $documentHTML = document.documentElement;

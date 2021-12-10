@@ -1,7 +1,7 @@
 //IMPORTS
-import { $hmButton } from "./_hamburger-menu-component.js";
+import { $hmButton } from "./_hamburger_menu_component.js";
 import { $documentHTML } from "./_elements.js";
-import { $hiddenMenu } from "./_hidden-menu.js";
+import { $hiddenMenu } from "./_hidden_menu.js";
 
 //Clicks
 $documentHTML.addEventListener("click", (e) => {
